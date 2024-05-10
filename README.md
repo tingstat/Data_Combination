@@ -8,7 +8,7 @@ This paper studies policy evaluation with multiple data sources, especially in s
 
 <img src=https://github.com/tingstat/Data_Combination/blob/main/single_stage.png alt=Syntheetic width="600">
 
-** Figure 1**.  In this example, we consider a contextual bandit setting where the sample size of the experimental data is $|\mathcal{D}_e|=48$, and the sample size of the historical data is set to be $|\mathcal{D}_h|=m|\mathcal{D}_e|$ with {$m \in \{1,2,3\}$.} A deterministic switchback design is adopted to generate $\mathcal{D}_e$.
+**Figure 1**.  In this example, we consider a contextual bandit setting where the sample size of the experimental data is $|\mathcal{D}_e|=48$, and the sample size of the historical data is set to be $|\mathcal{D}_h|=m|\mathcal{D}_e|$ with {$m \in \{1,2,3\}$.} A deterministic switchback design is adopted to generate $\mathcal{D}_e$.
 We vary the mean reward shift $b_h$ (the average reward under the control between the historical data and the experimental data) within the range from 0 to 1.2, incrementing by 0.1 at each step. We also vary the conditional variance of the reward and use $d$ to characterize this difference. 
 Comparison is made among the following ATE estimators.
 - NonPessi: The proposed non-pessimistic estimator.
